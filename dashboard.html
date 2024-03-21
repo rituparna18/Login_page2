@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="company-metrics">
+        <h2>Company Metrics</h2>
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <!-- Metric card content goes here -->
+          </div>
+        </div>
+      </div>
+      <div class="bar-charts">
+        <div class="chart">
+          <h2>Revenue by Job Location</h2>
+          <canvas id="revenueByLocationChart" width="400" height="200"></canvas>
+        </div>
+        <div class="chart">
+          <h2>Revenue by Job Type</h2>
+          <canvas id="revenueByTypeChart" width="400" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

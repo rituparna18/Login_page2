@@ -1,0 +1,62 @@
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-metrics {
+  margin-bottom: 30px;
+}
+.metrics-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.data-card {
+  width: 250px;
+  height: 70px;
+  border-left: 5px solid;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  border-color: #41bf99;
+  background-color: white;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.bar-charts {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  text-align: center;
+}
+
+.chart {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 40%;
+}
